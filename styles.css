@@ -1,0 +1,14 @@
+.is-style-decorated {
+  padding-top: 5px;
+  position: relative;
+}
+
+.is-style-decorated::after {
+  content: "";
+  background-color: black;
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  top: 0;
+  left: 0;
+}
